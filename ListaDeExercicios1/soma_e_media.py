@@ -6,4 +6,13 @@ for i in range(5):
 
 print(lista)
 
-print(f"A soma dos valores é: {sum(lista)}, e a média é: {sum(lista) / 5}")
+# soma = 0
+# for i in lista:
+#     soma += i
+
+# media = soma / len(lista)
+
+# print(soma)
+# print(media)
+
+print(f"A soma dos valores é: {sum(lista)}, e a média é: {sum(lista) / len(lista)}")
